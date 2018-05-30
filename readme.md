@@ -1,6 +1,6 @@
 Fifa Ultimate Card Trader
 
-1.Git repo:
+1.Git repo: https://github.com/TackJordy/Fifa-ultimate-card-trader
 
 2.What is the app supposed to do?
 It's a card trading app based on the popular game fifa, where you can view all the players in the world and collect them. Before you are logged in/ registered you can view the homepage with a little bit explanation. You can also see the players that you can try to collect, on this tab you can filter the players, show more players, order them or search a player by name. In the next tab you can see the leaderboard, the player with the most coins is on top. For the next section you need to be logged in, then you can see my cards, the market and open packs. On open packs you can open each 180 minutes a pack with five cards. These cards are added to my cards. When you go to this page you can click on a player and view all his abilities. You can also choose to sell it. When you sell it, the player is added to the transfer market where you can bid or buy the player in realtime (vuejs + fetch). The players you buy are added to my cards. Try it out.
