@@ -1,0 +1,236 @@
+/*navbar */
+#coins {
+    background-image: url(media/Coin.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 1px 20px;
+    margin-left: 25px;
+}
+#coins a {
+    margin-left: 5px;
+}
+
+/* Player card style */
+
+.card {
+	background-image:url("/images/gold.png");
+	background-size: 100% 100%;
+    background-position: center;
+    height: 205px;
+    width: 135px;
+    position: relative;
+}
+.card p,.card img {
+	position: absolute;
+}
+.card .name {
+       top: 98px;
+    left: 30px;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100px;
+}
+.card .rating {
+	font-size: 18px;
+    left: 7px;
+    line-height: 24px;
+    top: 32px;
+    font-weight: 700;
+}
+.card .position {
+	    font-size: 11px;
+    left: 3px;
+    top: 49px;
+    width: 30px;
+    font-weight: 700!important;
+    font-family: 'Open Sans Condensed',sans-serif;
+    text-align: center;
+}
+
+.card .clublogo {
+	left: 7px;
+    top: 67px;
+}
+.card .country {
+	left: 7px;
+    top: 93px;
+}
+.card .playerphoto {
+	height: 74px;
+    width: 74px;
+    top: 24px;
+    left: 40px;
+}
+ .skills {
+    top: 119px;
+    left: 36px;
+    position: absolute;
+    width: 90px;
+}
+.skills ul {
+    list-style-type: none;
+    margin: 0;
+}
+.skills li {
+    width:50%;
+    float: left;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.card .skills p {
+	
+	display: inline-block;
+	position: relative;
+}
+#player .card {
+    transform: scale(1.5,1.5);
+    margin: 40px;
+}
+#order {
+    text-align: center;
+}
+#order select {
+    width: 30%;
+    height: 40px;
+    margin: 1%;
+}
+.playerskills > .span4{
+    background-color: #f2f2f2;
+    height: 250px;
+    padding: 10px 0 0 10px;
+}
+/* Open pack style */
+
+.openpack {
+    text-align: center;
+    min-width: 300px;
+    height:auto;
+    display: block;
+    margin:auto;
+}
+.newplayers {
+    text-align: center;
+}
+.newplayers .card {
+    margin: 49px;
+    transform: scale(1.1,1.1);
+}
+
+
+/*market page*/
+.market{
+    margin-bottom:  30px;
+}
+.market .row {
+        margin-bottom:0;
+}
+.market .span6{
+    padding: 5px;
+    margin: 0;
+}
+.markethead {
+    background-color:#1a1a1aa6;
+    height: 230px;
+   padding: 20px 0 0 10px;
+     background-color: #333;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+.markethead .card:visited{
+    border:3px solid #fff;
+}
+
+
+markethead a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+markethead a:hover {
+    background-color: #777;
+}
+.cardattr {
+    display: inline-block;
+}
+.marketev {
+    height:30px;
+    background-color: #f2f2f2;
+}
+
+.marketunev{
+    height:30px;
+    background: #ddd;
+}
+.activate {
+    border:1px solid white;
+}
+.bidding {
+    text-align: center;
+}
+.bidding input {
+    width: 200px;
+    margin-top: 20px;
+    height:40px;
+    font-size: 1.5rem;
+}
+.activate {
+    border:1px solid #fff;
+}
+.modal {
+    margin-top:100px;
+}
+.icon img {
+       filter: brightness(0.9) invert(0.7);
+    width:80%;
+    height:80%;
+}
+#bidamount {
+    height:30px;
+    margin-bottom: 0;
+}
+/* mycards */
+.sell {
+    text-align: center;
+    
+    margin:10px auto;
+}
+/*login and register */
+input {
+    border: 1px solid #666 !important;
+}
+#mobilelogout {
+    display: none;
+}
+@media (max-width: 767px){
+    section#intro {
+        margin-top: 30px !important;
+    } 
+    .card {
+        transform: scale(0.8,0.8);
+    }
+    #player .card {
+        transform: scale(1.2,1.2);
+
+    }
+    .playerskills > .span4 {
+        height:auto;
+    }
+    .cards .span2{
+        display: inline-block;
+        width:32%;
+    }
+    .newplayer .card {
+        margin:0 !important;
+        transform: scale(0.8,0.8) !important;
+    }
+    .marketunev, .marketev {
+        height:60px;
+    }
+    footer.footer {
+        padding: 10px;
+    }
+}
